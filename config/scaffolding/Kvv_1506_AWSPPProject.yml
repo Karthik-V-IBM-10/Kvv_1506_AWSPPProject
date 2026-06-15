@@ -7,6 +7,26 @@ packages:
   gitUrl: https://github.com/Karthik-V-IBM-10
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
+- name: SIQA_OriginTest_OnPremAssets
+  gitServerName: SIQABitbucketTest
+  gitUrl: https://bitbucket.org/siqamjan
+  gitUsername: siqagituser
+  gitBranch: Test
+services:
+- serviceName: project.kvv_1506_awspp.integrations:switchCaseDADA
+  packages:
+  - name: Kvv_1506_AWSPPProject
+    version: "1.0"
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.828
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.828
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbcfunc.SAPTxStore.failFastMode: false
