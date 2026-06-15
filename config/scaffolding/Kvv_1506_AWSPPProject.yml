@@ -20,14 +20,22 @@ packages:
   gitUsername: manoj-jannu-IBM
   gitBranch: main
 - name: SIQACloudStreamsTests
+  version: "1.0"
   gitServerName: MJANGit
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
+  gitBranch: main
+- name: JMSTest
+  gitServerName: kvv
+  gitUrl: https://github.com/prabhakarsag
+  gitUsername: Karthik-V-IBM-10
   gitBranch: main
 services:
 - serviceName: project.kvv_1506_awspp.integrations:refdaf
   packages:
   - name: Kvv_1506_AWSPPProject
+    version: "1.0"
+  - name: JMSTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -45,6 +53,8 @@ services:
   packages:
   - name: Kvv_1506_AWSPPProject
     version: "1.0"
+  - name: JMSTest
+    version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: SIQA_OriginTest_OnPremAssets
@@ -60,6 +70,8 @@ services:
 - serviceName: project.kvv_1506_awspp.integrations:switchCaseDADA
   packages:
   - name: Kvv_1506_AWSPPProject
+    version: "1.0"
+  - name: JMSTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -84,6 +96,8 @@ services:
 - serviceName: project.kvv_1506_awspp.integrations:tppdaf
   packages:
   - name: Kvv_1506_AWSPPProject
+    version: "1.0"
+  - name: JMSTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
