@@ -32,12 +32,20 @@ packages:
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
 - name: WmJDBCAdapter
+  version: 10.3.0.0.34
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
+- name: TPP_services_in_FCS
+  gitServerName: kvv
+  gitUrl: https://github.com/Karthik-V-IBM-10
+  gitUsername: Karthik-V-IBM-10
+  gitBranch: main
 services:
 - serviceName: project.kvv_1506_awspp.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:mssql
   packages:
   - name: Kvv_1506_AWSPPProject
+    version: "1.0"
+  - name: TPP_services_in_FCS
     version: "1.0"
   - name: JMSTest
     version: "1.0"
@@ -57,6 +65,28 @@ services:
   packages:
   - name: Kvv_1506_AWSPPProject
     version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: JMSTest
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.22
+  - name: SIQACloudStreamsTests
+    version: "1.0"
+- serviceName: project.kvv_1506_awspp.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:test
+  packages:
+  - name: Kvv_1506_AWSPPProject
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
   - name: JMSTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
@@ -74,6 +104,8 @@ services:
 - serviceName: project.kvv_1506_awspp.integrations:JMSFlowTest
   packages:
   - name: Kvv_1506_AWSPPProject
+    version: "1.0"
+  - name: TPP_services_in_FCS
     version: "1.0"
   - name: JMSTest
     version: "1.0"
@@ -101,6 +133,8 @@ services:
   packages:
   - name: Kvv_1506_AWSPPProject
     version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
   - name: JMSTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
@@ -118,6 +152,8 @@ services:
 - serviceName: project.kvv_1506_awspp.integrations:refdaf
   packages:
   - name: Kvv_1506_AWSPPProject
+    version: "1.0"
+  - name: TPP_services_in_FCS
     version: "1.0"
   - name: JMSTest
     version: "1.0"
@@ -137,6 +173,8 @@ services:
   packages:
   - name: Kvv_1506_AWSPPProject
     version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
   - name: JMSTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
@@ -154,6 +192,8 @@ services:
 - serviceName: project.kvv_1506_awspp.integrations:switchCaseDADA
   packages:
   - name: Kvv_1506_AWSPPProject
+    version: "1.0"
+  - name: TPP_services_in_FCS
     version: "1.0"
   - name: JMSTest
     version: "1.0"
@@ -180,6 +220,8 @@ services:
 - serviceName: project.kvv_1506_awspp.integrations:tppdaf
   packages:
   - name: Kvv_1506_AWSPPProject
+    version: "1.0"
+  - name: TPP_services_in_FCS
     version: "1.0"
   - name: JMSTest
     version: "1.0"
