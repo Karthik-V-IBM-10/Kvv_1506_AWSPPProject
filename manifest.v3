@@ -11,18 +11,19 @@
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="SIQA_OriginTest_OnPremAssets">1.0</value>
+    <value name="SIQAJDBCAdapterTests">1.0</value>
   </record>
   <null name="lazy_load_node_types"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">9</value>
+  <value name="build">10</value>
   <null name="description"/>
   <value name="created_date">15-06-2026 05:17:44 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-06-15T05:23:57.416035977Z</value>
+  <value name="lastUpdated">2026-06-15T05:25:19.580226958Z</value>
   <value name="wmProjectId">fl0bbeeda34eb64be99e5e956a6680f565</value>
   <value name="creator">Karthik V</value>
 </Values>
