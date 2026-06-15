@@ -16,18 +16,19 @@
     <value name="JMSTest">1.0</value>
     <value name="WmJDBCAdapter">10.3.0.0.34</value>
     <value name="TPP_services_in_FCS">1.0</value>
+    <value name="DADA_ExtendedProperty">1.0</value>
   </record>
   <null name="lazy_load_node_types"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">25</value>
+  <value name="build">26</value>
   <null name="description"/>
   <value name="created_date">15-06-2026 05:17:44 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-06-15T05:53:53.511187199Z</value>
+  <value name="lastUpdated">2026-06-15T05:54:50.864003115Z</value>
   <value name="wmProjectId">fl0bbeeda34eb64be99e5e956a6680f565</value>
   <value name="creator">Karthik V</value>
 </Values>
