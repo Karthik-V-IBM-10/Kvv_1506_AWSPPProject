@@ -14,6 +14,12 @@ packages:
   gitUsername: siqagituser
   gitBranch: Test
 - name: SIQAJDBCAdapterTests
+  version: "1.0"
+  gitServerName: MJANGit
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: manoj-jannu-IBM
+  gitBranch: main
+- name: SIQACloudStreamsTests
   gitServerName: MJANGit
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
@@ -31,6 +37,10 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.22
+  - name: SIQACloudStreamsTests
+    version: "1.0"
 - serviceName: project.kvv_1506_awspp.referencedata:ref1
   packages:
   - name: Kvv_1506_AWSPPProject
@@ -43,6 +53,10 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.22
+  - name: SIQACloudStreamsTests
+    version: "1.0"
 - serviceName: project.kvv_1506_awspp.integrations:switchCaseDADA
   packages:
   - name: Kvv_1506_AWSPPProject
@@ -55,6 +69,10 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.22
+  - name: SIQACloudStreamsTests
+    version: "1.0"
 - serviceName: pub.math:addInts
   packages:
   - name: WmPublic
@@ -75,6 +93,10 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.22
+  - name: SIQACloudStreamsTests
+    version: "1.0"
 - serviceName: Basics_1:ComplexFS
   packages:
   - name: SIQA_OriginTest_OnPremAssets
